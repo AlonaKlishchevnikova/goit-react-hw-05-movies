@@ -1,0 +1,42 @@
+.list{
+    padding: 20px;
+}
+
+.movies{
+    margin: 0;
+    padding: 20px;
+}
+.item{
+    padding: 3px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.item:hover,
+.item:focus {
+    color: red;
+}
+
+.link{
+    text-decoration: none;
+    color: blue;
+}
+
+.link:hover,
+.link:focus {
+    color: red;
+}
+
+.input{
+    margin-right: 20px;
+}
+.button, .input{
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 5px rgba(35, 34, 33, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    padding: 10px;
+}

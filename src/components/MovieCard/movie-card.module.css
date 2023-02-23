@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    padding: 20px 0;
+}
+
+.info{
+    padding: 0 20px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.overview{
+    font-size: 30px;
+}
+
+.genres{
+    font-size: 25px;
+}
+
+.text{
+    font-size: 20px;
+}
