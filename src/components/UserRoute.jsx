@@ -21,8 +21,8 @@ const NotFoundPage = lazy(() => import("../pages/NotFoundPage/NotFoundPage"));
           <Route path="movies/:id" element={<MovieDetails />}>
             <Route path="cast" element={<Cast />} />
           <Route path="reviews" element={<Reviews />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Route>
+        </Route>
+         <Route path="*" element={<NotFoundPage />} />
         </Routes>
   </Suspense>
   );
